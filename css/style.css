@@ -1,0 +1,73 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* Header */
+.header .logo img{
+    margin-top: 9px;
+    height: 60px;
+    width: 60px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.header.menu-bar{
+    margin-top: -30px;
+}
+.nav-bar ul{
+    margin-top: -45px;
+    margin-left: 50px;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    display: inline;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+
+}
+/* End of Header Part */
+
+/* Main Part */
+.main-body .left-img img{
+    height: 500px;
+    margin-left: 600px;
+}
+
+/* End of Main Part */
+
+/* Footer Part */
+.footer-bar {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.footer-bar  .col .sub-col{
+    display:inline-block;
+    margin-left: 90px;
+}
+ .col .sub-col{
+    list-style-type: none;
+    color: white;
+}
+.sub-col a{
+    color:white;
+    text-decoration: none;
+}
+.footer-bar .socials{
+    margin-left: 1200px;
+    display: inline;
+}
+.socials img{
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+}
